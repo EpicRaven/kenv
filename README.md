@@ -86,6 +86,8 @@ echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
 source ~/.zshrc
 ```
 
+![Kenv](screenshots/first.png)
+
 Install the Kaggle CLI if you do not have it yet:
 
 ```bash
@@ -218,6 +220,10 @@ These are all you need to start a session, move files, and shut it down. Every s
 | `kenv stop` | Delete the session's kernel immediately |
 | `exit` | Leave the kenv shell; the kernel is deleted |
 
+![Kenv](screenshots/second.png)
+![Kenv](screenshots/fifth.png)
+![Kenv](screenshots/sixth.png)
+
 **A first session**
 
 ```bash
@@ -228,6 +234,8 @@ kenv ls                    # confirm it arrived
 kenv save results/         # download results to your machine
 exit                       # end the session; the kernel is deleted
 ```
+
+![Kenv](screenshots/third.png)
 
 Paths given to `kenv save` and `kenv ls` are relative to `/kaggle/working` on the kernel. `kenv save .` grabs everything.
 
@@ -267,16 +275,26 @@ kenv exec "pip install torch"
 ```bash
 kenv -n "my-experiment"        # same as: kenv init -n "my-experiment"
 ```
-
 Names need at least 3 letters or digits.
+
+
+![Kenv](screenshots/seventh.png)
+![Kenv](screenshots/eight.png)
 
 ### Use a session from a notebook
 
 ```bash
 kenv --url
 ```
+![Kenv](screenshots/nineth.png)
+![Kenv](screenshots/tenth.png)
+
 
 This prints the Kaggle link, the **Jupyter URL** and the **Attach ID**. In VS Code or Cursor, choose *Select Kernel → Existing Jupyter Server* and paste the Jupyter URL.
+
+
+![Kenv](screenshots/eleventh.png)
+![Kenv](screenshots/twelveth.png)
 
 ### Open a second terminal on the same session
 
@@ -287,6 +305,8 @@ kenv --url                                   # note the Attach ID, e.g. kenv://s
 # in another terminal
 kenv -id kenv://swift-raven-42#<secret>
 ```
+
+![Kenv](screenshots/fourth.png)
 
 ### Choose where files go
 
