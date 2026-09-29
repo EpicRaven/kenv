@@ -287,6 +287,9 @@ Names need at least 3 letters or digits.
 kenv --url
 ```
 ![Kenv](screenshots/nineth.png)
+
+
+
 ![Kenv](screenshots/tenth.png)
 
 
@@ -294,6 +297,9 @@ This prints the Kaggle link, the **Jupyter URL** and the **Attach ID**. In VS Co
 
 
 ![Kenv](screenshots/eleventh.png)
+
+
+
 ![Kenv](screenshots/twelveth.png)
 
 ### Open a second terminal on the same session
