@@ -279,6 +279,9 @@ Names need at least 3 letters or digits.
 
 
 ![Kenv](screenshots/seventh.png)
+
+
+
 ![Kenv](screenshots/eight.png)
 
 ### Use a session from a notebook
@@ -290,6 +293,14 @@ kenv --url
 
 
 
+
+
+![Kenv](screenshots/thirteenth.png)
+
+
+
+
+
 ![Kenv](screenshots/tenth.png)
 
 
@@ -297,6 +308,7 @@ This prints the Kaggle link, the **Jupyter URL** and the **Attach ID**. In VS Co
 
 
 ![Kenv](screenshots/eleventh.png)
+
 
 
 
