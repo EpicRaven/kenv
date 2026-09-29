@@ -6,6 +6,8 @@
 
 It is a single Python file with no third-party Python dependencies of its own. It only needs the official Kaggle CLI.
 
+![Kenv](screenshots/kenv.png)
+
 ---
 
 ## Table of Contents
