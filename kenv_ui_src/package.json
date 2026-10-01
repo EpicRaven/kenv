@@ -1,0 +1,14 @@
+{
+  "name": "kenv-ui",
+  "private": true,
+  "version": "1.6.0",
+  "description": "Dashboard for `kenv ui` (React + Ant Design). `npm run build` writes ../kenv_ui, the folder kenv serves.",
+  "scripts": { "build": "node build.mjs" },
+  "dependencies": {
+    "antd": "^5.22.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.13.0"
+  },
+  "devDependencies": { "esbuild": "^0.24.0" }
+}
